@@ -1,7 +1,9 @@
-package happy.linhdn.nowplaying;
+package happy.linhdn.nowplaying.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import happy.linhdn.nowplaying.R;
 
 public class MainActivity extends AppCompatActivity {
 
