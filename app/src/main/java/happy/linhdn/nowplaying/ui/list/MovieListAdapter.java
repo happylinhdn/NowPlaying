@@ -68,7 +68,7 @@ public class MovieListAdapter extends BaseAdapter {
         holder.txtMovieVote.setText(movie.getVoteFormat());
         Picasso.with(context)
                 .load(Constant.IMG_API_URL + movie.poster_path)
-                .placeholder(R.drawable.ic_loading)
+                .placeholder(R.drawable.ic_interface)
 //                .centerCrop()
 //                .resize(200, 200)
                 .into(holder.ivMoviePoster, new Callback() {
@@ -78,7 +78,7 @@ public class MovieListAdapter extends BaseAdapter {
 
                     @Override
                     public void onError() {
-                        holder.ivMoviePoster.setImageResource(R.drawable.ic_loading);
+                        holder.ivMoviePoster.setImageResource(R.drawable.ic_interface);
                     }
                 });
     }
